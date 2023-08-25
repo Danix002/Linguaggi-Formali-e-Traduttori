@@ -1,0 +1,5 @@
+assign 10 to a,b;
+while (> a 5){
+	assign - a 1 to a;
+	print(b)
+}

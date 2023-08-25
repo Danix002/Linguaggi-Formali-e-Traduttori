@@ -1,0 +1,10 @@
+Modificare l'SDT e l’implementazione della classe Translator (esercizio 5.1) in modo tale che 
+nessuna istruzione goto sia generata dal metodo bexpr (per la parte che corrisponde alla 
+produzione <bexpr>::=RELOP<expr><expr>). 
+
+Si noti che questa modifica è possibile grazie alla particolarità delle istruzioni if e while. 
+Cioè nel caso in cui la condizione <bexpr> è soddisfatta lo <stat> da eseguire segue direttamente <bexpr>. 
+
+N.B. L'obiettivo di questo esercizio è di semplificare il codice generato nel file Output.j, 
+togliendo un'istruzione goto dal codice. Per questo motivo, spostare semplicemente la generazione di 
+un'istruzione goto dal metodo bexpr a un altro metodo non è sufficiente.

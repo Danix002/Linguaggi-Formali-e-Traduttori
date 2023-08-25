@@ -1,0 +1,4 @@
+assign 10 to a,b;
+print(a,b);
+read(x,w);
+print(x)

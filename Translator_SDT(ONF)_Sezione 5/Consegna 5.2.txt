@@ -1,0 +1,14 @@
+Modificare la grammatica del linguaggio P per permettere l'utilizzo dei connettivi logici && (congiunzione, operatore binario), || (disgiunzione, operatore binario) 
+e ! (negazione, operatore unario) in notazione prefissa nelle espressioni booleane. 
+
+Segue un esempio di un input che corrisponde alla grammatica con connettivi logici:
+
+read(x);
+if (|| < x 10 && > x 20 ! > x 30) 
+    print(+(x,100))
+else
+    print(x)
+end
+
+
+Si scriva uno SDT e si estenda il traduttore con un'implementazione corrispondente.
